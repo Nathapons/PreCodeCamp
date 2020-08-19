@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <title>Quiz2: Differentation</title>
+    <style>
+        table{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+            font-size: 24px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>คำสั่ง</th>
+            <th>ความหมาย/ความต่าง</th>
+        </thead>
+        <tbody>
+            <!--1. hr vs br-->
+            <tr>
+                <td>hr & br</td>
+                <td>hr=สร้างเส้นในแนวนอนแต่ br จะทำหน้าที่ขึ้นบรรทัดใหม่</td>
+            </tr>
+            <!--2. hr vs br-->
+            <tr>
+                <td>ul & ol</td>
+                <td>ทำหน้าที่ลิสทั้งคู่แต่จะต่างกันตัวอักษรกำกับ list: ul ใช้ ●, ol ใช้ตัวเลข</td>
+            </tr>
+            <!--3. select & checkbox & radiobutton-->
+            <tr>
+                <td>select & checkbox & radiobutton</td>
+                <td>
+                    <p>
+                        select เป็นแท็กในการระบุใน document, 
+                        checkbox จะเป็นตัวเลือกช้อยในรูปแบบติ๊กถูกสามารถเลือกได้หลายๆอัน, 
+                        radiobutton จะเป็นตัวเลือกช้อยในรูปแบบ ● สามารถเลือกได้อันเดียวเท่านั้น
+                    </p>
+                </td>
+            </tr>
+            <!--4. div&span-->
+            <tr>
+                <td>div & span</td>
+                <td>
+                    div และ span จะทำหน้าที่เหมือน container ในการเก็บข้อมูลแต่จะแตกต่างข้ออความถัดไป
+                    div: ข้อความจะอยู่บรรถัดไป, span ข้อความจะอยู่ข้างๆ
+                </td>
+            </tr>
+            <!--5. script&style-->
+            <tr>
+                <td>script & style</td>
+                <td>
+                    script และ style เปรียบเสมือนกล่องใหญ่ในการเก็บคำสั่ง แต่มันจะแตกต่างกันรูปแบบคำสั่งในกล่อง
+                    script จะเก็บคำสั่ง Javascript ส่วน style จะเก็บคำสั่ง css เอาไว้
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
