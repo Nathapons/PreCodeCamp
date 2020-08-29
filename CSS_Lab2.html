@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Homework: Lab2</title>
+    <!--CSS Command-->
+    <style>
+        /*--CSS Table--*/
+        .css_table{
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .css_table th{
+            color: white;
+            background-color: green;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 24px;
+        }
+        .css_table td{
+            font-size: 18px;
+            border: 1px solid black;
+        }
+        /*--1. News Website--*/
+    </style>
+</head>
+<body>
+    <h1>Lab2: ให้ทุกคนลองคิดว่าหน้าเว็บต่อไปนี้ควรวางโครงสร้าง HTML อย่างไร และ ใช้การจัดรูปแบบ grid หรือ flex อย่างไร</h1>
+    <table class="css_table">
+        <thead>
+            <th>หัวข้อคอมเมนต์</th>
+            <th>Link URL</th>
+            <th>คำอธิบาย</th>
+        </thead>
+        <tbody>
+            <!--1. Website-->
+            <tr>
+                <td>1. เว็บข่าว</td>
+                <td><a href="https://voicetv.co.th/">Voice TV Website</a></td>
+                <td>เว็บไซต์นี้จะใช้ในรูปแบบ div ในการแบ่งบล็อกหัวข้อข่าวต่างๆ ส่วน css ที่ใช้จะใช้ flex box layout สะเป็นส่วนใหญ่</td>
+            </tr>
+            <!--2. Shopping Website-->
+            <tr>
+                <td>2. เว็บช๊อปปิ้ง</td>
+                <td><a href="https://www.central.co.th/en">Central Website</a></td>
+                <td>คิดว่าน่าจะใช้แบ่ง Flex คล้ายกับหัวข้อ Website โดยแบ่งหัวข้อเป็น Row กับ Column</td>
+            </tr>
+            <!--3. Comment Website or Acknowledge Website-->
+            <tr>
+                <td>3. เว็บกระทู้ หรือ การเรียนการสอน</td>
+                <td><a href="https://www.borntodev.com/blog/">Borntodev หัวข้อ IT</a></td>
+                <td>คิดว่าน่าจะใช้แบ่ง Flex คล้ายกับหัวข้อ Website โดยแบ่งหัวข้อเป็น Row กับ Column</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
