@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <h1>Please right click and choose Inspect. Please see result at Console bar</h1>
+        <script>
+            class UserTemplate{
+
+                constructor(name, password, lastname, age){
+                    this.name = name
+                    this.password = password
+                    this.lastname = lastname
+                    this.age = age
+                    this.connected = false
+                }
+
+                login(){
+                    this.connected = true
+                    console.log('your login status :', this.connected)
+                    console.log('Welcome:', this.name, this.password)
+                    console.log('Your age is', this.age)
+                }
+
+                logout(){
+                    this.connected = false
+                    console.log('your logout status :', this.connected)
+                }
+            }
+            // Command to run Class in JS
+            user1 = new UserTemplate('Nuthapon', 'aaa', 'Sripornprasert', '25')
+            // Command for show result in console in Html
+            user1.login()
+            user1.logout()
+        </script>
+    </head>
+</html>
